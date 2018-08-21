@@ -1,5 +1,7 @@
 <template>
+  <!--Contenedor de la app-->
   <div id="app">
+    <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
@@ -10,6 +12,7 @@
       
     </nav>
     <div id="navOverlay" v-bind:class="[nav.show ? 'show' : 'hide']" @click="toggleNav(false)"></div>
+    <!--Contenedor principal donde cargan las páginas de la app-->
     <main>
       <transition name="fade" enter-active-class="fadeIn" leave-active-class="fadeOut">
         <router-view v-on:toggleNav="toggleNav"></router-view>
@@ -49,6 +52,7 @@ export default {
       }
     },
     changeRoute: function() {
+      //al cambiar de ruta se cierra la barra de navegación automáticamente
       const t = this;
       //setTimeout(function() {
       t.toggleNav(false);
@@ -60,7 +64,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700");
-@import "http://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css";
+@import "http://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css"; /*Esto creo que no es necesario*/
 @import "../src/libs/reboot/bootstrap-reboot.css";
 @import "../src/styles/common.min.css";
 @import "../src/styles/ui.min.css";
