@@ -1,0 +1,26 @@
+#CategoriesContainer {
+  background: #dc143c; //#fff;
+  > header {
+    position: fixed;
+    top: 0;
+  }
+}
+
+.categoriesList > li {
+  //height: 4rem;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  //padding: 0 1rem;
+  //border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  //color: #000;
+  > a {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    text-decoration: none;
+  }
+}

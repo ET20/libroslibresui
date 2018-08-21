@@ -1,0 +1,57 @@
+#CategoryContainer {
+  background: #fff;
+
+  #appHeader {
+    position: fixed;
+    top: 0;
+    background: rgba(255, 0, 0, 0.7);
+  }
+
+  #storesList {
+    > li {
+      display: flex;
+      align-items: center;
+      > a {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+        align-items: start;
+        color: #000;
+        min-height: 5rem;
+        box-sizing: border-box;
+        padding: 1rem 0;
+        width: 100%;
+        text-decoration: none;
+
+        > .storeProfileImg {
+          border-radius: 50%;
+          height: 4rem;
+          width: 4rem;
+          margin-right: 1rem;
+        }
+        > .storeInfo {
+          display: flex;
+          flex-direction: column;
+          width: calc(100% - (4rem + 1rem));
+          > h2 {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            margin: 0;
+            color: rgba(0, 0, 0, 0.9);
+            width: 100%;
+          }
+          > p {
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin: 0;
+            color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+          }
+        }
+        > .iconRight {
+          align-self: center;
+        }
+      }
+    }
+  }
+}
