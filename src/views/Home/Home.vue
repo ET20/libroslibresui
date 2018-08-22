@@ -1,4 +1,4 @@
-<!--HOLA!-->
+<!--HOLA Soy Lucas-->
 <!--La etiqueta TEMPLATE sirve para que VUE sepa qué tiene que mostrar en cada página.-->
 <!--Todo el código HTML debe ir dentro de la etiqueta TEMPLATE-->
 <!--La etiqueta TEMPLATE sólo puede tener un hijo n este caso el DIV con ID = "HomeContainer"-->
