@@ -20,7 +20,7 @@
     </div>
   </div>
 </template>
-
+<!--Ezequiel-->
 <!--Cada página tiene su sección SCRIPT-->
 <script>
 //Dentro de esta sección, debe ir un bloque export,
