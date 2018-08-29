@@ -8,6 +8,8 @@
         <li><router-link class="" to="/map"><i class="optionIcon mdi mdi-map"></i><span class="optionText">Cercanos</span></router-link></li>
         <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
         <li><router-link class="" to="/search"><i class="optionIcon mdi mdi-magnify"></i><span class="optionText">Buscar</span></router-link></li>
+
+        <li><router-link class="" to="/Vista3"><i class="optionIcon mdi mdi-ninja"></i><span class="optionText">andar</span></router-link></li>
         <li><router-link class="" to="/Vista4"><i class="optionIcon mdi mdi-bike"></i><span class="optionText">Vista4</span></router-link></li>
       </ul>
       
