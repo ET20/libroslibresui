@@ -1,4 +1,3 @@
-
 //Hola
 import Vue from "vue";
 import Router from "vue-router";
@@ -8,7 +7,7 @@ import Category from "@/views/Category/Category";
 import Map from "@/views/Map/Map";
 import Search from "@/views/Search/Search";
 import Store from "@/views/Store/Store";
-
+import Vista2 from "@/views/Vista2/Vista2";
 Vue.use(Router);
 
 export default new Router({
@@ -42,11 +41,11 @@ export default new Router({
       path: "/store/:id",
       name: "store",
       component: Store
+    },
+    {
+      path: "/Vista2",
+      name: "Vista2",
+      component: Vista2
     }
-    //{
-    //  path: "/detail/:id",
-    //  name: "detail",
-    //  component: DetailView
-    //},
   ]
 });

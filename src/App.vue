@@ -7,6 +7,7 @@
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
         <li><router-link class="" to="/map"><i class="optionIcon mdi mdi-map"></i><span class="optionText">Cercanos</span></router-link></li>
         <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
+        <li><router-link class="" to="/Vista2"><i class="optionIcon mdi mdi-ambulance"></i><span class="optionText">Vista2</span></router-link></li>
         <li><router-link class="" to="/search"><i class="optionIcon mdi mdi-magnify"></i><span class="optionText">Buscar</span></router-link></li>
       </ul>
       
