@@ -1,4 +1,3 @@
-//Hola
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/Home/Home";
@@ -8,6 +7,9 @@ import Map from "@/views/Map/Map";
 import Search from "@/views/Search/Search";
 import Store from "@/views/Store/Store";
 import Vista2 from "@/views/Vista2/Vista2";
+import Vista3 from "@/views/Vista3/Vista3";
+import Vista4 from "@/views/Vista4/Vista4";
+
 Vue.use(Router);
 
 export default new Router({
@@ -46,6 +48,16 @@ export default new Router({
       path: "/Vista2",
       name: "Vista2",
       component: Vista2
+    },
+    {
+      path: "/Vista3",
+      name: "detail",
+      component: Vista3
+    },
+    {
+      path: "/Vista4",
+      name: "vista4",
+      component: Vista4
     }
   ]
 });
