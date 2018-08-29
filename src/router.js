@@ -6,7 +6,7 @@ import Category from "@/views/Category/Category";
 import Map from "@/views/Map/Map";
 import Search from "@/views/Search/Search";
 import Store from "@/views/Store/Store";
-
+import Vista3 from "@/views/Vista3/Vista3";
 Vue.use(Router);
 
 export default new Router({
@@ -40,11 +40,11 @@ export default new Router({
       path: "/store/:id",
       name: "store",
       component: Store
+    },
+    {
+      path: "/Vista3",
+      name: "detail",
+      component: Vista3
     }
-    //{
-    //  path: "/detail/:id",
-    //  name: "detail",
-    //  component: DetailView
-    //},
   ]
 });
