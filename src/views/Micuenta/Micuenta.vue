@@ -3,22 +3,22 @@
 <!--La etiqueta TEMPLATE sólo puede tener un hijo n este caso el DIV con ID = "HomeContainer"-->
 <template>
   <!--Cada página debería tener este div, con la misma clase pero distinto ID-->
-  <div id="Vista3Container" class="pageContainer">
+  <div id="MicuentaContainer" class="pageContainer">
     <!--Este es el encabezado de la página-->
     <header id="appHeader">
       <!--Este es el botón hamburguesa que abre el menu lateral-->
-      <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-alien"></i></button>
+      <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-menu"></i></button>
       <!--Este es el título de la página-->
       <h1 class="float-left">Libros Libres</h1>
       <!--Este es el botón de la derecha-->
       <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
       <div class="clr"></div>
     </header>
-        <div class="clr"></div>
-        <div id="Vista3Content">
-        <img src="../../assets/ninja.jpg">
-    </div>
-        </div>
+            <div class="clr"></div>
+        <div id="MicuentaContent"> 
+            <h1><img src="../../assets/prod162779_IMGSET.jpg"> </h1>
+      </div>
+      </div>
 </template>
 
 <!--Cada página tiene su sección SCRIPT-->

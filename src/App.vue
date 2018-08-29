@@ -5,13 +5,13 @@
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
-        <li><router-link class="" to="/map"><i class="optionIcon mdi mdi-map"></i><span class="optionText">Cercanos</span></router-link></li>
+        <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
         <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
         <li><router-link class="" to="/Vista2"><i class="optionIcon mdi mdi-ambulance"></i><span class="optionText">Vista2</span></router-link></li>
         <li><router-link class="" to="/search"><i class="optionIcon mdi mdi-magnify"></i><span class="optionText">Buscar</span></router-link></li>
 
-        <li><router-link class="" to="/Vista3"><i class="optionIcon mdi mdi-ninja"></i><span class="optionText">andar</span></router-link></li>
-        <li><router-link class="" to="/Vista4"><i class="optionIcon mdi mdi-bike"></i><span class="optionText">Vista4</span></router-link></li>
+        <li><router-link class="" to="/Darlibro"><i class="optionIcon mdi mdi-book"></i><span class="optionText">Dar libro</span></router-link></li>
+        <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
       </ul>
       
     </nav>
