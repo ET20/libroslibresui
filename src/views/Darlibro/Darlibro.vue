@@ -7,7 +7,7 @@
     <!--Este es el encabezado de la página-->
     <header id="appHeader">
       <!--Este es el botón hamburguesa que abre el menu lateral-->
-      <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-alien"></i></button>
+      <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-menu"></i></button>
       <!--Este es el título de la página-->
       <h1 class="float-left">Libros Libres</h1>
       <!--Este es el botón de la derecha-->
