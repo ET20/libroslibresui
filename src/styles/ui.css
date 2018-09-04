@@ -115,7 +115,7 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   z-index: 899;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
