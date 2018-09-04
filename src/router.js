@@ -4,10 +4,11 @@ import Home from "@/views/Home/Home";
 import Categories from "@/views/Categories/Categories";
 import Category from "@/views/Category/Category";
 import Direccion from "@/views/Direccion/Direccion";
-import Search from "@/views/Search/Search";
 import Store from "@/views/Store/Store";
 import Darlibro from "@/views/Darlibro/Darlibro";
 import Micuenta from "@/views/Micuenta/Micuenta";
+import Favoritos from "@/views/Favoritos/Favoritos";
+import Filtro from "@/views/Filtro/Filtro";
 
 Vue.use(Router);
 
@@ -34,11 +35,6 @@ export default new Router({
       component: Category
     },
     {
-      path: "/search",
-      name: "search",
-      component: Search
-    },
-    {
       path: "/store/:id",
       name: "store",
       component: Store
@@ -52,6 +48,16 @@ export default new Router({
       path: "/Micuenta",
       name: "micuenta",
       component: Micuenta
+    },
+    {
+      path: "/Favoritos",
+      name: "favoritos",
+      component: Favoritos
+    },
+    {
+      path: "/Filtro",
+      name: "filtro",
+      component: Filtro
     }
   ]
 });
