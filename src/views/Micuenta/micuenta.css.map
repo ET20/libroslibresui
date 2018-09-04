@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,IAAI;CACjB",
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,UAAU,EAAE,IAAI;CAenB;;AAhBD,AAIM,kBAJY,CAGd,aAAa,CACX,GAAG,CAAA;EACH,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAC,MAAM;EACb,OAAO,EAAE,KAAK;CACZ",
     "sources": [
         "micuenta.scss"
     ],
