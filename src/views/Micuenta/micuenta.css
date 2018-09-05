@@ -10,6 +10,13 @@
 }
 
 #MiCuentaContainer .Infouser {
-  background: red;
+  width: 20rem;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#MiCuentaContainer .Infouser h2 {
+  color: #ca2121;
 }
 /*# sourceMappingURL=micuenta.css.map */
