@@ -7,10 +7,11 @@
         
         <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
         <img id="imagenperfil" src="../src/assets/logo.png"> 
-        <h1>ruperta</h1>
-        <h2>@gmail.com</h2> 
+        <h1>Lucas Ruperto</h1>
+        <h2>elruperto@gmail.com</h2> 
       </div>
       <ul class="list-unstyled">
+<<<<<<< HEAD
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
 
         <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
@@ -26,9 +27,16 @@
         <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-tune"></i><span class="optionText">Filtro</span></router-link></li>
 
 
+=======
+        <li><router-link class="" to="/Inicio"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
+        <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
+        <li><router-link class="" to="/Favoritos"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Favoritos</span></router-link></li>
+        <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-tune"></i><span class="optionText">Filtro</span></router-link></li>
+>>>>>>> 4f8eb1570613348280613025cdd7b4b1b0502add
         <li><router-link class="" to="/Darlibro"><i class="optionIcon mdi mdi-book"></i><span class="optionText">Dar libro</span></router-link></li>
         <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
         <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
+        
       </ul>
       
     </nav>
