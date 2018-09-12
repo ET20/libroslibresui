@@ -37,5 +37,5 @@ export default {
 
 <!--En esta sección importamos los estilos de esta página-->
 <style scoped>
-/*@import "favoritos.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
+@import "favoritos.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
 </style>
