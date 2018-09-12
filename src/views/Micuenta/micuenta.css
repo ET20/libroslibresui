@@ -1,11 +1,12 @@
 #MiCuentaContainer {
-  background: #fff;
+  background: #c41111;
 }
 
 #MiCuentaContainer .imagenperfil img {
   width: 20rem;
   border-radius: 50%;
   margin: 0 auto;
+  margin-bottom: 2rem;
   display: block;
 }
 
@@ -17,6 +18,8 @@
 }
 
 #MiCuentaContainer .Infouser h2 {
-  color: #ca2121;
+  color: #fdfdfd;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 /*# sourceMappingURL=micuenta.css.map */
