@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,AAAC,CACX,UAAU,CAAE,IAAI,CACjB",
+    "sources": [
+        "filtro.scss"
+    ],
+    "names": [],
+    "file": "filtro.min.css"
+}
