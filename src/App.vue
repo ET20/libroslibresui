@@ -3,6 +3,13 @@
   <div id="app">
     <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
+      <div id="usuario"> 
+        
+        <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
+        <img id="imagenperfil" src="../src/assets/logo.png"> 
+        <h1>ruperta</h1>
+        <h2>@gmail.com</h2> 
+      </div>
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
 <<<<<<< HEAD
@@ -13,8 +20,12 @@
 =======
         <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
         <li><router-link class="" to="/Favoritos"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Favoritos</span></router-link></li>        
+<<<<<<< HEAD
         <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Filtro</span></router-link></li>
 >>>>>>> 9b70245c5a33b37d37a604fe9013a1e540028b06
+=======
+        <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-tune"></i><span class="optionText">Filtro</span></router-link></li>
+>>>>>>> f43680a4175a82d3268cd876a36ea95f88ff7809
 
         <li><router-link class="" to="/Darlibro"><i class="optionIcon mdi mdi-book"></i><span class="optionText">Dar libro</span></router-link></li>
         <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
@@ -78,5 +89,5 @@ export default {
 @import "http://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css"; /*Esto creo que no es necesario*/
 @import "../src/libs/reboot/bootstrap-reboot.css";
 @import "../src/styles/common.min.css";
-@import "../src/styles/ui.min.css";
+@import "../src/styles/ui.css";
 </style>
