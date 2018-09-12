@@ -11,7 +11,7 @@
       <!--Este es el título de la página-->
       <h1 class="float-left">Editar Perfil</h1>
       <!--Este es el botón de la derecha-->
-      <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
+      <button id="search" class="button float-right"><i class="mdi mdi-check"></i></button>
       <div class="clr"></div>
     </header>
     <div class="clr"></div>
