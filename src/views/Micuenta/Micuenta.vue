@@ -25,14 +25,14 @@
       
      <div class="Infouser">
         
-      <h2>Nombre</h2>
-      <input type="text">
+      <label for="nombre">Nombre</label>
+      <input placeholder="Ingrese nombre de usuario" class="input" id="nombre" type="text">
 
-      <h2>Email</h2>
-      <input type="text">
+      <label for="email">Email</label>
+      <input class="input" id="email" type="text">
 
-      <h2>Generos Favoritos</h2>
-      <input type="text">
+      <label for="gf">Generos Favoritos</label>
+      <input class="input" id="gf" type="text">
     
      </div> 
      
