@@ -1,0 +1,22 @@
+#MiCuentaContainer {
+  background: #fff;
+}
+
+#MiCuentaContainer .imagenperfil img {
+  width: 20rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+#MiCuentaContainer .Infouser {
+  width: 20rem;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#MiCuentaContainer .Infouser h2 {
+  color: #ca2121;
+}
+/*# sourceMappingURL=micuenta.css.map */

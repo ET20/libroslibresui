@@ -3,7 +3,7 @@
 <!--La etiqueta TEMPLATE sólo puede tener un hijo n este caso el DIV con ID = "HomeContainer"-->
 <template>
   <!--Cada página debería tener este div, con la misma clase pero distinto ID-->
-  <div id="DarlibroContainer" class="pageContainer">
+  <div id="FiltroContainer" class="pageContainer">
     <!--Este es el encabezado de la página-->
     <header id="appHeader">
       <!--Este es el botón hamburguesa que abre el menu lateral-->
@@ -14,11 +14,11 @@
       <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
       <div class="clr"></div>
     </header>
-        <div class="clr"></div>
-        <div id="DarlibroContent">
-        <img src="../../assets/ninja.jpg">
+    <div class="clr"></div>
+    <div>
+    <h1></h1>
     </div>
-        </div>
+  </div>
 </template>
 
 <!--Cada página tiene su sección SCRIPT-->
@@ -37,5 +37,5 @@ export default {
 
 <!--En esta sección importamos los estilos de esta página-->
 <style scoped>
-/*@import "home.min.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
+/*@import "filtro.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
 </style>

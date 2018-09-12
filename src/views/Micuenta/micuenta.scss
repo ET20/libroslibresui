@@ -1,4 +1,33 @@
-#HomeContainer {
+#MiCuentaContainer {
     background: #fff;
-  }
+
+    .imagenperfil{
+      img{
+      width: 20rem;
+      border-radius: 50%;
+      margin:0 auto;
+      display: block;  
+       }   
+    
+    }
+
+    .Infouser{
+      width: 20rem;
+      margin:0 auto;
+      display:block;
+      text-align: center;
+      h2{
+        color:rgb(202, 33, 33);
+      }
+        
+    }
+
+  
+  
+
+}
+
+
+
+
   
