@@ -3,9 +3,17 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
+//import { MdField, MdInput } from "vue-material";
+import VueMaterial from "vue-material";
+import "vue-material/dist/vue-material.min.css";
+import "vue-material/dist/theme/default.css";
 import * as VueGoogleMaps from "vue2-google-maps";
 
 Vue.config.productionTip = false;
+
+//Vue.use(MdField);
+//Vue.use(MdInput);
+Vue.use(VueMaterial);
 
 //Datos para Google Maps
 Vue.use(VueGoogleMaps, {

@@ -3,7 +3,7 @@
   background: rgb(255, 255, 255);
 
   #MicuentaContent {
-    padding: 2rem 0;
+    padding: 2rem;
     .imagenperfil {
       img {
         width: 20rem;
@@ -15,7 +15,7 @@
     }
 
     .Infouser {
-      width: 20rem;
+      max-width: 40rem;
       margin: 0 auto;
       display: block;
       text-align: center;

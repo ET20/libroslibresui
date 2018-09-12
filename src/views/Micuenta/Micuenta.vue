@@ -23,16 +23,29 @@
 
       </div>
       
-     <div class="Infouser">
-        
-      <label for="nombre">Nombre</label>
-      <input placeholder="Ingrese nombre de usuario" class="input" id="nombre" type="text">
+      <div class="Infouser">
+        <md-field>
+          <label>Nombre</label>
+          <md-input v-model="initial"></md-input>
+        </md-field>
 
-      <label for="email">Email</label>
-      <input class="input" id="email" type="text">
+        <md-field>
+          <label>Email</label>
+          <md-input v-model="initial"></md-input>
+        </md-field>
 
-      <label for="gf">Generos Favoritos</label>
-      <input class="input" id="gf" type="text">
+        <md-field>
+          <label for="movies">Géneros Favoritos</label>
+          <md-select v-model="movies" name="movies" id="movies" md-dense multiple>
+            <md-option value="fight-club">Fight Club</md-option>
+            <md-option value="godfather">Godfather</md-option>
+            <md-option value="godfather-ii">Godfather II</md-option>
+            <md-option value="godfather-iii">Godfather III</md-option>
+            <md-option value="godfellas">Godfellas</md-option>
+            <md-option value="pulp-fiction">Pulp Fiction</md-option>
+            <md-option value="scarface">Scarface</md-option>
+          </md-select>
+        </md-field>
     
      </div> 
      
@@ -47,6 +60,11 @@
 //para que VUE sepa que contenido tiene que importar
 //de esta página cuando se las invoca en las rutas (route.js)
 export default {
+  data: () => ({
+    movies: [],
+    country: null,
+    font: null
+  }),
   methods: {
     toggleNav: function() {
       this.$emit("toggleNav"); //emit pasa un evento al padre de esta página
