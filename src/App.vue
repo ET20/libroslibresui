@@ -3,7 +3,13 @@
   <div id="app">
     <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
-      <img src="../src/assets/ninja.jpg">
+      <div id="usuario"> 
+        
+        <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
+        <img id="imagenperfil" src="../src/assets/logo.png"> 
+        <h1>ruperta</h1>
+        <h2>@gmail.com</h2> 
+      </div>
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
         <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
@@ -72,5 +78,5 @@ export default {
 @import "http://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css"; /*Esto creo que no es necesario*/
 @import "../src/libs/reboot/bootstrap-reboot.css";
 @import "../src/styles/common.min.css";
-@import "../src/styles/ui.min.css";
+@import "../src/styles/ui.css";
 </style>
