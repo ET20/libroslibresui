@@ -78,7 +78,7 @@ body {
     &.show {
       left: 0;
     }
-    #usuario {
+    #navBanner {
       position: relative;
       height: 18rem;
       width: 100%;
@@ -87,7 +87,6 @@ body {
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-end;
-      margin: 1rem 0;
       > #imagenfondo {
         width: 100%;
         height: 100%;
@@ -97,43 +96,58 @@ body {
         object-position: 50% 50%;
         z-index: 5;
       }
-      > #imagenperfil {
-        position: relative;
-        z-index: 6;
-        height: 5rem;
-        margin: 0 0 1rem 2rem;
-        border-radius: 50%;
-        background: white;
-      }
-      > h1,
-      > h2 {
-        position: relative;
-        z-index: 6;
-        color: white;
-        margin: 0 0 1rem 2rem;
-        font-size: 1.6rem;
-        font-weight: 400;
+      #usuario {
+        z-index: 10;
+        padding: 1rem 2rem;
+        width: 100%;
+        text-decoration: none;
+        outline: none;
+
+        > #imagenperfil {
+          position: relative;
+          height: 5rem;
+          margin-bottom: 1rem;
+          border-radius: 50%;
+          background: white;
+        }
+        > h1,
+        > h2 {
+          position: relative;
+          color: white;
+          margin: 0;
+        }
+        > h1 {
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+        > h2 {
+          font-size: 1.4rem;
+          font-weight: 200;
+        }
       }
     }
-    ul > li {
-      font-size: 2rem;
-      padding: 0;
-      > a {
-        display: flex;
-        padding: 1rem 2rem;
-        color: #000;
-        text-decoration: none;
-        > i.optionIcon {
-          font-size: 2rem;
-          line-height: 2rem;
-          margin-right: 2rem;
-        }
-        > span.optionText {
-          font-size: 1.6rem;
-          line-height: 2rem;
-        }
-        &:hover {
-          background: rgba(0, 0, 0, 0.1);
+    ul {
+      margin-top: 1rem;
+      > li {
+        font-size: 2rem;
+        padding: 0;
+        > a {
+          display: flex;
+          padding: 1rem 2rem;
+          color: #000;
+          text-decoration: none;
+          > i.optionIcon {
+            font-size: 2rem;
+            line-height: 2rem;
+            margin-right: 2rem;
+          }
+          > span.optionText {
+            font-size: 1.6rem;
+            line-height: 2rem;
+          }
+          &:hover {
+            background: rgba(0, 0, 0, 0.1);
+          }
         }
       }
     }
@@ -144,28 +158,32 @@ body {
     top: 0;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(100, 0, 0, 0.7);
     z-index: 899;
     transition: 0.3s all;
-    &.hide {
-      left: -100%;
-      opacity: 0;
+    //&.hide {
+    //  left: -100%;
+    //  opacity: 0;
+    //}
+    //&.show {
+    //  left: 0;
+    //  opacity: 1;
+    //}
+
+    &.fade-enter-active {
+      transition: opacity 1s;
     }
-    &.show {
-      left: 0;
-      opacity: 1;
+    &.fade-leave-active {
+      opacity: 0;
     }
   }
 
   main {
     height: 100%;
     .pageContainer {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
       padding-top: 6rem;
+      min-height: 100%;
+      box-sizing: border-box;
     }
   }
 

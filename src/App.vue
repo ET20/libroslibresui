@@ -3,47 +3,37 @@
   <div id="app">
     <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
-      <div id="usuario"> 
-        
+      <div id="navBanner"> 
         <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
-        <img id="imagenperfil" src="../src/assets/logo.png"> 
-        <h1>Lucas Ruperto</h1>
-        <h2>elruperto@gmail.com</h2> 
+        <router-link class="" to="/Micuenta" id="usuario">
+          
+            <img id="imagenperfil" src="../src/assets/logo.png"> 
+            <h1>Lucas Ruperto</h1>
+            <h2>elruperto@gmail.com</h2> 
+          
+        </router-link>
+        
       </div>
       <ul class="list-unstyled">
-<<<<<<< HEAD
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
-
-        <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
-        <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
-        <li><router-link class="" to="/Vista2"><i class="optionIcon mdi mdi-ambulance"></i><span class="optionText">Vista2</span></router-link></li>
-        <li><router-link class="" to="/search"><i class="optionIcon mdi mdi-magnify"></i><span class="optionText">Buscar</span></router-link></li>
-
-        <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
-        <li><router-link class="" to="/Favoritos"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Favoritos</span></router-link></li>        
-
-        <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Filtro</span></router-link></li>
-
-        <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-tune"></i><span class="optionText">Filtro</span></router-link></li>
-
-
-=======
-        <li><router-link class="" to="/Inicio"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
         <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
         <li><router-link class="" to="/Favoritos"><i class="optionIcon mdi mdi-heart"></i><span class="optionText">Favoritos</span></router-link></li>
         <li><router-link class="" to="/Filtro"><i class="optionIcon mdi mdi-tune"></i><span class="optionText">Filtro</span></router-link></li>
->>>>>>> 4f8eb1570613348280613025cdd7b4b1b0502add
         <li><router-link class="" to="/Darlibro"><i class="optionIcon mdi mdi-book"></i><span class="optionText">Dar libro</span></router-link></li>
-        <li><router-link class="" to="/Direccion"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
+        <li><router-link class="" to="/Dirección"><i class="optionIcon mdi mdi-map-marker"></i><span class="optionText">Direccion</span></router-link></li>
         <li><router-link class="" to="/categories"><i class="optionIcon mdi mdi-format-list-checks"></i><span class="optionText">Categorías</span></router-link></li>
-        
       </ul>
       
     </nav>
-    <div id="navOverlay" v-bind:class="[nav.show ? 'show' : 'hide']" @click="toggleNav(false)"></div>
+    <transition name="fade" :duration="500">
+        <div v-if="nav.show" id="navOverlay"  @click="toggleNav(false)"></div>
+        <!--v-bind:class="[nav.show ? 'show' : 'hide']"-->
+    </transition>
+    
+    
     <!--Contenedor principal donde cargan las páginas de la app-->
     <main>
-      <transition name="fade" enter-active-class="fadeIn" leave-active-class="fadeOut">
+      <transition name="fade">
         <router-view v-on:toggleNav="toggleNav"></router-view>
       </transition>
     </main>
