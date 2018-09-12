@@ -7,8 +7,8 @@
         
         <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
         <img id="imagenperfil" src="../src/assets/logo.png"> 
-        <h1>ruperta</h1>
-        <h2>@gmail.com</h2> 
+        <h1>Lucas Ruperto</h1>
+        <h2>elruperto@gmail.com</h2> 
       </div>
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
