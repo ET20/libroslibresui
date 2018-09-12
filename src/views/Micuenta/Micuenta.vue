@@ -15,7 +15,7 @@
       <div class="clr"></div>
     </header>
     <div class="clr"></div>
-    <div class="MicuentaContent">
+    <div id="MicuentaContent">
      
       <div class="imagenperfil">
 

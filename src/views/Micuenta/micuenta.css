@@ -1,8 +1,12 @@
 #MiCuentaContainer {
-  background: #c41111;
+  background: white;
 }
 
-#MiCuentaContainer .imagenperfil img {
+#MiCuentaContainer #MicuentaContent {
+  padding: 2rem 0;
+}
+
+#MiCuentaContainer #MicuentaContent .imagenperfil img {
   width: 20rem;
   border-radius: 50%;
   margin: 0 auto;
@@ -10,47 +14,47 @@
   display: block;
 }
 
-#MiCuentaContainer .Infouser {
+#MiCuentaContainer #MicuentaContent .Infouser {
   width: 20rem;
   margin: 0 auto;
   display: block;
   text-align: center;
 }
 
-#MiCuentaContainer .Infouser > .input {
+#MiCuentaContainer #MicuentaContent .Infouser > .input {
   margin: 0 0 2rem 0;
   background: none;
   border-style: solid;
-  border-color: white;
+  border-color: #c62828;
   border-width: 0 0 0.2rem 0;
   outline: none;
   font-size: 1.6rem;
-  color: white;
+  color: rgba(0, 0, 0, 0.8);
   width: 100%;
 }
 
-#MiCuentaContainer .Infouser > .input ::-webkit-input-placeholder {
+#MiCuentaContainer #MicuentaContent .Infouser > .input ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: rgba(255, 255, 255, 0.5);
 }
 
-#MiCuentaContainer .Infouser > .input ::-moz-placeholder {
+#MiCuentaContainer #MicuentaContent .Infouser > .input ::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.5);
 }
 
-#MiCuentaContainer .Infouser > .input :-ms-input-placeholder {
+#MiCuentaContainer #MicuentaContent .Infouser > .input :-ms-input-placeholder {
   /* IE 10+ */
   color: rgba(255, 255, 255, 0.5);
 }
 
-#MiCuentaContainer .Infouser > .input :-moz-placeholder {
+#MiCuentaContainer #MicuentaContent .Infouser > .input :-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.5);
 }
 
-#MiCuentaContainer .Infouser label {
-  color: white;
+#MiCuentaContainer #MicuentaContent .Infouser label {
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.6rem;
   font-weight: 400;
   width: 100%;
