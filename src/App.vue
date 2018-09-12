@@ -3,6 +3,7 @@
   <div id="app">
     <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
+      <img src="../src/assets/ninja.jpg">
       <ul class="list-unstyled">
         <li><router-link class="" to="/"><i class="optionIcon mdi mdi-home"></i><span class="optionText">Inicio</span></router-link></li>
         <li><router-link class="" to="/Micuenta"><i class="optionIcon mdi mdi-account"></i><span class="optionText">Mi cuenta</span></router-link></li>
