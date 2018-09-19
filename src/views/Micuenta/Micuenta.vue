@@ -30,11 +30,11 @@
       <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
       
       <label for="email">Email</label>
-      <input class="input" id="email" type="text">
+      <input placeholder="Ingrese su correo" class="input" id="email" type="text">
       <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
 
       <label for="gf">Generos Favoritos</label>
-      <input class="input" id="gf" type="text">
+      <input placeholder="Tus generos favoritos" class="input" id="gf" type="text">
       <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
     
      </div> 
