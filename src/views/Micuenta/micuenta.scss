@@ -1,6 +1,6 @@
 #MiCuentaContainer {
   //Color de la pantalla creada por el grupo de diseño
-  /*background: rgb(196, 17, 17);*/
+  //background: rgb(196, 17, 17);
     background: rgb(255, 255, 255);
 
   #MicuentaContent {
@@ -12,6 +12,21 @@
         margin: 0 auto;
         margin-bottom: 2rem;
         display: block;
+        
+      }
+      .imgbutton{
+       position: relative;
+       bottom: 230px;
+       right: 230px;
+       float: right;
+       padding: 0;
+       background: none;
+       outline: none;
+       cursor: pointer;
+       box-sizing: border-box;
+       border: none;
+       font-size: 5rem;
+       
       }
     }
 
