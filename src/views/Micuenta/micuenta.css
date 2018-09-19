@@ -1,4 +1,5 @@
 #MiCuentaContainer {
+  /*background: rgb(196, 17, 17);*/
   background: white;
 }
 
@@ -26,6 +27,7 @@
   background: none;
   border-style: solid;
   border-color: #c62828;
+  /* border-color:white;*/
   border-width: 0 0 0.2rem 0;
   outline: none;
   font-size: 1.6rem;
@@ -54,11 +56,25 @@
 }
 
 #MiCuentaContainer #MicuentaContent .Infouser label {
-  color: rgba(0, 0, 0, 0.8);
   font-size: 1.6rem;
   font-weight: 400;
   width: 100%;
   text-align: left;
   margin: 0;
+  /*color: white;*/
+}
+
+#MiCuentaContainer #MicuentaContent .Infouser .sbutton {
+  position: absolute;
+  left: 440px;
+  padding: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 2rem;
+  /* color: white;*/
 }
 /*# sourceMappingURL=micuenta.css.map */
