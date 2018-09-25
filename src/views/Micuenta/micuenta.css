@@ -14,6 +14,21 @@
   display: block;
 }
 
+#MiCuentaContainer #MicuentaContent .imagenperfil .imgbutton {
+  position: relative;
+  bottom: 230px;
+  right: 230px;
+  float: right;
+  padding: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 5rem;
+}
+
 #MiCuentaContainer #MicuentaContent .Infouser {
   max-width: 40rem;
   margin: 0 auto;
@@ -26,6 +41,7 @@
   background: none;
   border-style: solid;
   border-color: #c62828;
+  /* border-color:white;*/
   border-width: 0 0 0.2rem 0;
   outline: none;
   font-size: 1.6rem;
@@ -54,11 +70,24 @@
 }
 
 #MiCuentaContainer #MicuentaContent .Infouser label {
-  color: rgba(0, 0, 0, 0.8);
   font-size: 1.6rem;
   font-weight: 400;
   width: 100%;
   text-align: left;
   margin: 0;
+  /*color: white;*/
+}
+
+#MiCuentaContainer #MicuentaContent .Infouser .sbutton {
+  position: absolute;
+  padding: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 2rem;
+  /* color: white;*/
 }
 /*# sourceMappingURL=micuenta.css.map */

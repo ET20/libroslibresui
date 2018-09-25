@@ -20,6 +20,7 @@
       <div class="imagenperfil">
 
         <img src="../../assets/prod162779_IMGSET.jpg">
+        <button class="imgbutton" type="button"><i class="mdi mdi-camera"></i></button>
 
       </div>
       
@@ -47,9 +48,7 @@
           </md-select>
         </md-field>
     
-     </div> 
-     
-    
+     </div>
     </div>
   </div>
 </template>
