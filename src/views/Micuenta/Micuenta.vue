@@ -28,15 +28,15 @@
         
       <label for="nombre">Nombre</label>
       <input placeholder="Ingrese nombre de usuario" class="input" id="nombre" type="text">
-      <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
+      <button class="editbutton" type="button"><i class="mdi mdi-pencil"></i></button>
       
       <label for="email">Email</label>
       <input placeholder="Ingrese su correo" class="input" id="email" type="text">
-      <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
+      <button class="editbutton" type="button"><i class="mdi mdi-pencil"></i></button>
 
       <label for="gf">Generos Favoritos</label>
       <input placeholder="Tus generos favoritos" class="input" id="gf" type="text">
-      <button class="sbutton" type="button"><i class="mdi mdi-pencil"></i></button>
+      <button class="editbutton" type="button"><i class="mdi mdi-pencil"></i></button>
     
      </div> 
      
