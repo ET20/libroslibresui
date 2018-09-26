@@ -9,7 +9,7 @@ import Darlibro from "@/views/Darlibro/Darlibro";
 import Micuenta from "@/views/Micuenta/Micuenta";
 import Favoritos from "@/views/Favoritos/Favoritos";
 import Filtro from "@/views/Filtro/Filtro";
-
+import Libro from "@/views/Libro/Libro";
 Vue.use(Router);
 
 export default new Router({
@@ -58,6 +58,11 @@ export default new Router({
       path: "/Filtro",
       name: "filtro",
       component: Filtro
-    }
+    },
+    {
+      path: "/Libro",
+      name: "libro",
+      component: Libro
+    },
   ]
 });
