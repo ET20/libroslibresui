@@ -10,7 +10,7 @@
       <!--Este es el botón hamburguesa que abre el menu lateral-->
       <button id="back" class="button float-left" @click="$router.go(-1)"><i class="mdi mdi-arrow-left"></i></button>   
       <!--Este es el título de la página-->
-      <h1 class="float-left">Libros Libres</h1>
+      
       <!--Este es el botón de la derecha-->
         <button id="heart" class="button float-right"><i class="mdi mdi-heart"></i></button>
       <div class="clr"></div>
@@ -19,9 +19,34 @@
     <div>
     <div id="ImagenLibro"> 
         <img src="../../assets/ninja.jpg"> 
-        
+        <button id="share" class="button float-right "><i class="mdi mdi-share-variant"></i></button>
+        <h1 class="float-left md-headline titulo">Libros Libres</h1>
       </div>
     </div>
+    <div class="md-layout BarraInformacion">
+    <div class="md-layout-item">
+      <div class="md-body-2">
+        <i class="mdi mdi-tag-text-outline"></i>
+      </div>
+      <div class="md-body-2">Genero</div>
+      
+    </div>
+     <div class="md-layout-item">
+      <div class="md-body-2">
+        <i class="mdi mdi-cake-variant"></i>
+      </div>
+      <div class="md-body-2">Año</div>
+      
+    </div>
+
+     <div class="md-layout-item">
+      <div class="md-body-2">
+        <i class="mdi mdi-account-outline"></i>
+      </div>
+      <div class="md-body-2">Escritor</div>
+      
+    </div>
+  </div>
   </div>
 </template>
 
@@ -39,6 +64,6 @@ export default {
 };
 </script>
 <!--En esta sección importamos los estilos de esta página-->
-<style scoped> 
+<style scoped>
 @import "libro.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
 </style>

@@ -51,5 +51,16 @@
           z-index: 5;
         }
     }
+    .BarraInformacion {
+      background: red;
+      padding: 1rem;
+      text-align: center;
+  }
+  .titulo {
+    position: relative;
+    z-index: 10;
+    color: white;
+  }
+ 
   }
   
