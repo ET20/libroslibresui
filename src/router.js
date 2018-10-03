@@ -63,6 +63,6 @@ export default new Router({
       path: "/Libro",
       name: "libro",
       component: Libro
-    },
+    }
   ]
 });
