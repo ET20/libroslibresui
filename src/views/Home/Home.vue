@@ -17,15 +17,44 @@
     <div class="clr"></div>
     
     
-    <div id="HomeContent">
+<div id="HomeContent">
       
-<div class="md-layout md-gutter">
+  <div class="md-layout md-gutter">
+
+    <div class="md-layout-item">
+      <md-card class="portadaLibro">
+           
+           <md-card-media-actions>
+             <md-card-media class="imagenLibro">
+               <img src="../../assets/redforest.png" alt="Cover">              
+             </md-card-media>
+
+             <md-card-actions class="accionesLibro">
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-heart md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-bookmark md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-share-variant md-headline"></i>
+               </md-button>
+
+               
+             </md-card-actions>
+
+           </md-card-media-actions> 
+      </md-card>  
+    </div>
+
     <div class="md-layout-item">
       <md-card>
            
            <md-card-media-actions>
              <md-card-media>
-               <img src="/src/assets/ninja.jpg" alt="Cover">
+               <img src="../../assets/redforest.png" alt="Cover">
              </md-card-media>
 
              <md-card-actions>
@@ -47,38 +76,13 @@
            </md-card-media-actions> 
       </md-card>  
     </div>
+
     <div class="md-layout-item">
       <md-card>
            
            <md-card-media-actions>
              <md-card-media>
-               <img src="/src/assets/ninja.jpg" alt="Cover">
-             </md-card-media>
-
-             <md-card-actions>
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-heart md-headline"></i>
-               </md-button>
-
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-bookmark md-headline"></i>
-               </md-button>
-
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-share-variant md-headline"></i>
-               </md-button>
-
-               
-             </md-card-actions>
-
-           </md-card-media-actions> 
-      </md-card>  
-    </div><div class="md-layout-item">
-      <md-card>
-           
-           <md-card-media-actions>
-             <md-card-media>
-               <img src="/src/assets/ninja.jpg" alt="Cover">
+               <img src="../../assets/redforest.png" alt="Cover">
              </md-card-media>
 
              <md-card-actions>
@@ -100,15 +104,11 @@
            </md-card-media-actions> 
       </md-card>  
     </div>
+
+    
   </div>
 
-
-
-
-
-
-
-    </div>
+</div>
   
   
   
@@ -144,5 +144,5 @@ export default {
 
 <!--En esta sección importamos los estilos de esta página-->
 <style scoped>
-@import "home.min.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
+@import "home.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
 </style>
