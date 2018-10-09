@@ -20,12 +20,40 @@
 <div id="HomeContent">
       
   <div class="md-layout md-gutter">
+<div class="md-layout-item portadaLibro">
+      <div class="imagenLibro">
+        <img src="../../assets/redforest.png" alt="Skyscraper">
+      </div>
+      <div class="infoLibro">
+        <header>
+        <h1>kljalkdja</h1>
+        <h2>asdjflak</h2>
+        </header>
+      <nav>
+        <md-button class="md-icon-button">
+                 <i class="mdi mdi-heart md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-bookmark md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-share-variant md-headline"></i>
+               </md-button>
+               </nav>
+      </div>
+      
+
+      
+    </div>
+
 
     <div class="md-layout-item">
       <md-card class="portadaLibro">
            
            <md-card-media-actions>
-             <md-card-media class="imagenLibro">
+             <md-card-media  class="imagenLibro">
                <img src="../../assets/redforest.png" alt="Cover">              
              </md-card-media>
 
@@ -49,33 +77,7 @@
       </md-card>  
     </div>
 
-    <div class="md-layout-item">
-      <md-card>
-           
-           <md-card-media-actions>
-             <md-card-media>
-               <img src="../../assets/redforest.png" alt="Cover">
-             </md-card-media>
-
-             <md-card-actions>
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-heart md-headline"></i>
-               </md-button>
-
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-bookmark md-headline"></i>
-               </md-button>
-
-               <md-button class="md-icon-button">
-                 <i class="mdi mdi-share-variant md-headline"></i>
-               </md-button>
-
-               
-             </md-card-actions>
-
-           </md-card-media-actions> 
-      </md-card>  
-    </div>
+    
 
     <div class="md-layout-item">
       <md-card>
