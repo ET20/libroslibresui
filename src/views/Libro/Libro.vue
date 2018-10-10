@@ -18,9 +18,15 @@
     <div class="clr"></div>
     <div>
     <div id="ImagenLibro"> 
-        <img src="../../assets/ninja.jpg"> 
-        <button id="share" class="button float-right "><i class="mdi mdi-share-variant"></i></button>
+        <img src="../../assets/ninja.jpg">
+       
+       <div id="InfoLibros">
         <h1 class="float-left md-headline titulo">Libros Libres</h1>
+        <md-button id="share" class="md-icon-button">
+        <i class="mdi mdi-share-variant"></i>
+      </md-button>
+      </div>
+       <!-- <button id="share" class="button float-right"><i class="mdi mdi-share-variant"></i></button> -->
       </div>
     </div>
     <div class="md-layout BarraInformacion">
@@ -31,6 +37,7 @@
       <div class="md-body-2">Genero</div>
       
     </div>
+
      <div class="md-layout-item">
       <div class="md-body-2">
         <i class="mdi mdi-cake-variant"></i>
@@ -46,6 +53,11 @@
       <div class="md-body-2">Escritor</div>
       
     </div>
+  </div>
+  <div class="DescripcionLibro">
+      <p> Un libro (del latín liber, libri) es una obra impresa,
+       manuscrita o pintada en una serie de hojas de papel,pergamino, vitela u otro material, 
+      unidas por un lado (es decir, encuadernadas) y protegidas con tapas, también llamadas cubiertas.</p>
   </div>
   </div>
 </template>

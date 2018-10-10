@@ -38,9 +38,9 @@
         width: 100%;
         z-index: 8;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-end;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
         > img {
           width: 100%;
           height: 100%;
@@ -55,12 +55,36 @@
       background: red;
       padding: 1rem;
       text-align: center;
+
+  }
+  .DescripcionLibro {
+    background:blue;
+    >p {
+      color: white;
+    }
   }
   .titulo {
     position: relative;
     z-index: 10;
     color: white;
   }
- 
+   #share {
+    position: relative;
+    z-index: 10;
+    color: white;
+    i{
+      font-size: 2rem;
+    }
   }
-  
+  #InfoLibros {
+    padding-top: 0 !important;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 2rem;
+    
+    }
+    
+}
