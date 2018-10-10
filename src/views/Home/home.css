@@ -6,11 +6,18 @@
   padding: 2rem;
 }
 
+#HomeContent .layoutPortadaLibro {
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 #HomeContent .portadaLibro {
   position: relative;
   background: white;
   color: white;
   height: 32rem;
+  width: 20rem;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
