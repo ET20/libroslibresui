@@ -9,7 +9,7 @@
       <!--Este es el botón hamburguesa que abre el menu lateral-->
       <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-menu"></i></button>
       <!--Este es el título de la página-->
-      <h1 class="float-left">Libros Libres</h1>
+      <h1 class="float-left">Inicio</h1>
       <!--Este es el botón de la derecha-->
       <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
       <div class="clr"></div>
