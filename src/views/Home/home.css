@@ -1,5 +1,5 @@
 #HomeContainer {
-  background: grey;
+  background: #fff;
 }
 
 #HomeContent {
@@ -7,14 +7,16 @@
 }
 
 #HomeContent .layoutPortadaLibro {
-  overflow: hidden;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  list-style: none;
 }
 
 #HomeContent .portadaLibro {
   position: relative;
-  background: white;
+  overflow: hidden;
   color: white;
   height: 32rem;
   width: 20rem;
@@ -29,6 +31,10 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  border-radius: 0.7rem;
+  -webkit-box-shadow: 1rem 0.2rem 2rem 0.3rem rgba(0, 0, 0, 0.6);
+          box-shadow: 1rem 0.2rem 2rem 0.3rem rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 #HomeContent .portadaLibro .imagenLibro {

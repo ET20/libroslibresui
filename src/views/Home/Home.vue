@@ -9,7 +9,7 @@
       <!--Este es el botón hamburguesa que abre el menu lateral-->
       <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-menu"></i></button>
       <!--Este es el título de la página-->
-      <h1 class="float-left">Libros Libres</h1>
+      <h1 class="float-left">Inicio</h1>
       <!--Este es el botón de la derecha-->
       <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
       <div class="clr"></div>
@@ -17,14 +17,14 @@
     <div class="clr"></div>
     
     
-<div id="HomeContent">
+<div id="HomeContent" class="pageContent">
       
 
 
 
   <ul class="md-layout md-gutter md-alignment-center">
   
-    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-50 md-small-size-30 md-medium-size-20 md-large-size-10 md-xlarge-size-5 ">
+    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-50 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-15 ">
       <div class="portadaLibro">
         <div class="imagenLibro">
         <img src="../../assets/coverBook.jpg" alt="Skyscraper">

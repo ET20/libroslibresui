@@ -211,6 +211,7 @@ body {
 
 #app #appHeader {
   position: fixed;
+  z-index: 800;
   top: 0;
   left: 0;
   right: 0;
@@ -249,5 +250,10 @@ body {
   line-height: 6rem;
   font-size: 2rem;
   padding-left: 1rem;
+}
+
+#app .pageContent {
+  position: relative;
+  z-index: 700;
 }
 /*# sourceMappingURL=ui.css.map */

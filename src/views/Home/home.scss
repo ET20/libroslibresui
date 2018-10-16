@@ -1,18 +1,23 @@
 #HomeContainer {
-  //background: #fff;
-  background: grey;
+  background: #fff;
+  //background: grey;
 }
 
 #HomeContent {
   padding: 2rem;
   .layoutPortadaLibro{
-    overflow: hidden;
+    //overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    list-style: none;
+    
   }
   .portadaLibro {
     position: relative;
-    background: white;
+    overflow: hidden;
+    //background: white;
     color: white;
     height: 32rem;
     width: 20rem;
@@ -21,6 +26,9 @@
     flex-direction: column;
     //align-items: flex-end;
     justify-content: flex-end;
+    border-radius: 0.7rem;
+    box-shadow: 1rem 0.2rem 2rem 0.3rem rgba(0, 0, 0, 0.6);
+    z-index: 1;
 
     .imagenLibro {
       position: absolute;
