@@ -189,6 +189,7 @@ body {
 
   #appHeader {
     position: fixed;
+    z-index: 800;
     top: 0;
     left: 0;
     right: 0;
@@ -222,5 +223,9 @@ body {
       font-size: 2rem;
       padding-left: 1rem;
     }
+  }
+  .pageContent{
+    position: relative;
+    z-index: 700;
   }
 }
