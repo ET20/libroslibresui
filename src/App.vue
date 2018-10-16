@@ -4,7 +4,7 @@
     <!--Contenedor del menu lateral-->
     <nav id="mainNav" v-bind:class="[nav.show ? 'show' : 'hide']">
       <div id="navBanner"> 
-        <img id="imagenLibro" src="../src/assets/ninja.jpg"> 
+        <img id="imagenfondo" src="../src/assets/ninja.jpg"> 
 
         <router-link class="" to="/Micuenta" id="usuario">
           
