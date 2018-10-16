@@ -32,7 +32,7 @@
     <div class="md-layout BarraInformacion">
     <div class="md-layout-item">
       <div class="md-body-2">
-        <i class="mdi mdi-tag-text-outline"></i>
+        <i class="mdi mdi-tag"></i>
       </div>
       <div class="md-body-2">Genero</div>
       
@@ -48,7 +48,7 @@
 
      <div class="md-layout-item">
       <div class="md-body-2">
-        <i class="mdi mdi-account-outline"></i>
+        <i class="mdi mdi-account"></i>
       </div>
       <div class="md-body-2">Escritor</div>
       
