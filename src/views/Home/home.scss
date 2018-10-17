@@ -5,6 +5,19 @@
 
 #HomeContent {
   padding: 2rem;
+  .barraDestacados{
+    //background: blue;
+    //width: 80rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    .botonDestacados{
+      margin: 0 auto;
+      //background: red;
+      width: 80rem;
+    }
+  }
   .layoutPortadaLibro{
     //overflow: hidden;
     margin: 1rem 1rem 1rem 1rem;

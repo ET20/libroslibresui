@@ -18,13 +18,33 @@
     
     
 <div id="HomeContent" class="pageContent">
+  
+<div class="barraDestacados">
+  
       
+   <md-menu md-size="huge" md-direction="bottom-start">
+    
+    <md-button class="botonDestacados" md-menu-trigger>
+    Destacados
+    </md-button>
+
+    <md-menu-content>
+      <md-menu-item>My item 1</md-menu-item>
+      <md-menu-item>My item 2</md-menu-item>
+      <md-menu-item>My item 3</md-menu-item>
+    </md-menu-content>
+
+   </md-menu>
+  
+
+</div>
+  
 
 
-
-  <ul class="md-layout md-gutter md-alignment-center">
+  <!--<ul class="md-layout md-gutter md-alignment-center">
   
     <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-50 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
+      
       <div class="portadaLibro">
         <div class="imagenLibro">
         <img src="../../assets/coverBook.jpg" alt="Skyscraper">
@@ -56,10 +76,8 @@
       
 
     </li>
-
-  
-
-    </ul>
+    </ul>-->
+    
    </div>
 
 </div>
@@ -74,14 +92,14 @@ export default {
   data() {
     return {
       libros: [
-      { titulo: 'Foo',autor:'Ezequiel' },
-      { titulo: 'Fuu',autor:'Walter' },
-      { titulo: 'Foo',autor:'Ezequiel' },
-      { titulo: 'Fuu',autor:'Walter' },
-    ]
+        { titulo: "Foo", autor: "Ezequiel" },
+        { titulo: "Fuu", autor: "Walter" },
+        { titulo: "Foo", autor: "Ezequiel" },
+        { titulo: "Fuu", autor: "Walter" }
+      ]
     };
   },
-  
+
   methods: {
     toggleNav: function() {
       this.$emit("toggleNav"); //emit pasa un evento al padre de esta página

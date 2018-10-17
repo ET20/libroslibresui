@@ -6,6 +6,18 @@
   padding: 2rem;
 }
 
+#HomeContent .barraDestacados {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+#HomeContent .barraDestacados .botonDestacados {
+  margin: 0 auto;
+  width: 80rem;
+}
+
 #HomeContent .layoutPortadaLibro {
   margin: 1rem 1rem 1rem 1rem;
   padding: 0;
