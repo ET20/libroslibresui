@@ -22,19 +22,19 @@
 <div class="barraDestacados">
   
       
-   <md-menu md-size="huge" md-direction="bottom-start">
+   <md-menu md-size="huge" md-direction="bottom-start" md-align-trigger>
     
     <md-button class="botonDestacados" md-menu-trigger>
     Destacados
     </md-button>
 
-    <md-menu-content>
+    <md-menu-content class="itemsDestacados">
       <md-menu-item>My item 1</md-menu-item>
       <md-menu-item>My item 2</md-menu-item>
       <md-menu-item>My item 3</md-menu-item>
     </md-menu-content>
 
-   </md-menu>
+  </md-menu>
   
 
 </div>
