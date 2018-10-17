@@ -7,10 +7,8 @@
 }
 
 #HomeContent .layoutPortadaLibro {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-  margin-right: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 0;
   list-style: none;
 }
 
@@ -19,7 +17,6 @@
   overflow: hidden;
   color: white;
   height: 32rem;
-  width: 20rem;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +64,7 @@
   object-fit: cover;
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
+  display: block;
   z-index: 5;
 }
 
