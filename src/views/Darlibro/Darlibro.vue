@@ -17,6 +17,15 @@
         <div class="clr"></div>
         <div id="DarlibroContent">
         <img src="../../assets/ninja.jpg">
+                      <div>
+                        <md-button class="md-accent BotonISBN">ISBN</md-button>
+                      </div>
+                      <div>
+                        <md-button class="md-accent">SCAN</md-button>
+                      </div>
+                      <div>
+                        <md-button class="md-accent">MANUAL</md-button>
+                      </div>
     </div>
         </div>
 </template>
