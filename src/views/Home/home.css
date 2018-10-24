@@ -6,6 +6,14 @@
   padding: 2rem;
 }
 
+#HomeContent .destacados {
+  width: 20rem;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
 #HomeContent .layoutPortadaLibro {
   margin: 1rem 1rem 1rem 1rem;
   padding: 0;

@@ -5,12 +5,18 @@
 
 #HomeContent {
   padding: 2rem;
+  .destacados{
+    width: 20rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;      
+    position: relative;
+  }
   .layoutPortadaLibro{
     //overflow: hidden;
     margin: 1rem 1rem 1rem 1rem;
     padding: 0;
     list-style: none;
-    
   }
   .portadaLibro {
     position: relative;
@@ -88,6 +94,7 @@
           color: white !important;
         }
       }
+
       
     }
   }

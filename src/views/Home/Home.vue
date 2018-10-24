@@ -18,13 +18,14 @@
     
     
 <div id="HomeContent" class="pageContent">
-      
+  
 
-
-
-  <ul class="md-layout md-gutter md-alignment-center">
+   <md-tabs md-sync-route>
+      <md-tab id="tab-home" md-label="Home" to="">
+        <ul class="md-layout md-gutter md-alignment-center">
   
     <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-50 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
+      
       <div class="portadaLibro">
         <div class="imagenLibro">
         <img src="../../assets/coverBook.jpg" alt="Skyscraper">
@@ -56,10 +57,56 @@
       
 
     </li>
-
+    </ul>
+   </md-tab>
+      <md-tab id="tab-pages" md-label="Pages" to="" >
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde nisi in doloremque, dolores sint quia iure. Facilis voluptates, excepturi pariatur illum, enim quam laudantium repudiandae sed perspiciatis, eligendi consequuntur.</p>
+      </md-tab>
+      <md-tab id="tab-posts" md-label="Posts" to="" ></md-tab>
+      <md-tab id="tab-settings" md-label="Settings" to=""></md-tab>
+      <md-tab id="tab-disabled" md-label="Disabled" md-disabled to=""></md-tab>
+    </md-tabs>
+  
   
 
-    </ul>
+
+ <!-- <ul class="md-layout md-gutter md-alignment-center">
+  
+    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-50 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
+      
+      <div class="portadaLibro">
+        <div class="imagenLibro">
+        <img src="../../assets/coverBook.jpg" alt="Skyscraper">
+      </div>
+
+      <div class="infoLibro">
+        <header>
+         <h1>{{ libro.titulo}}</h1>
+         <h2>{{ libro.autor }}</h2>
+        </header>
+   
+   
+      <nav>
+        <md-button class="md-icon-button">
+                 <i class="mdi mdi-heart md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-bookmark md-headline"></i>
+               </md-button>
+
+               <md-button class="md-icon-button">
+                 <i class="mdi mdi-share-variant md-headline"></i>
+               </md-button>
+               </nav>
+      </div>
+      </div>
+      
+      
+
+    </li>
+    </ul>-->
+    
    </div>
 
 </div>
@@ -74,14 +121,14 @@ export default {
   data() {
     return {
       libros: [
-      { titulo: 'Foo',autor:'Ezequiel' },
-      { titulo: 'Fuu',autor:'Walter' },
-      { titulo: 'Foo',autor:'Ezequiel' },
-      { titulo: 'Fuu',autor:'Walter' },
-    ]
+        { titulo: "Foo", autor: "Ezequiel" },
+        { titulo: "Fuu", autor: "Walter" },
+        { titulo: "Foo", autor: "Ezequiel" },
+        { titulo: "Fuu", autor: "Walter" }
+      ]
     };
   },
-  
+
   methods: {
     toggleNav: function() {
       this.$emit("toggleNav"); //emit pasa un evento al padre de esta página
