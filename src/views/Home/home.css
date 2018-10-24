@@ -6,16 +6,12 @@
   padding: 2rem;
 }
 
-#HomeContent .barraDestacados {
+#HomeContent .destacados {
+  width: 20rem;
   margin: 0 auto;
   display: block;
   text-align: center;
   position: relative;
-}
-
-#HomeContent .barraDestacados .botonDestacados {
-  margin: 0 auto;
-  width: 80rem;
 }
 
 #HomeContent .layoutPortadaLibro {
