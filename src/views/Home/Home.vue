@@ -20,11 +20,11 @@
 <div id="HomeContent" class="pageContent">
   
 
-   <md-tabs md-sync-route>
+   <md-tabs class="barra" md-sync-route>
       <md-tab id="tab-home" md-label="Home" to="">
         <ul class="md-layout md-gutter md-alignment-center">
   
-    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-70 md-small-size-40 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
+    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-60 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
       
       <div class="portadaLibro">
         <div class="imagenLibro">
