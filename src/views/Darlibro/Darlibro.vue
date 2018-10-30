@@ -6,26 +6,24 @@
   <div id="DarlibroContainer" class="pageContainer">
     <!--Este es el encabezado de la página-->
     <header id="appHeader">
+      
       <!--Este es el botón hamburguesa que abre el menu lateral-->
-      <button id="hamburguer" class="button float-left" @click="toggleNav()"><i class="mdi mdi-menu"></i></button>
+      <button id="back" class="button float-left" @click="$router.go(-1)"><i class="mdi mdi-arrow-left"></i></button>   
       <!--Este es el título de la página-->
-      <h1 class="float-left">Libros Libres</h1>
-      <!--Este es el botón de la derecha-->
-      <button id="search" class="button float-right"><i class="mdi mdi-magnify"></i></button>
+      <h1 class="float-left">Dar Libro</h1>
       <div class="clr"></div>
     </header>
         <div class="clr"></div>
         <div id="DarlibroContent">
-        <img src="../../assets/ninja.jpg">
                       <div>
-                        <md-button class="md-accent BotonISBN">ISBN</md-button>
+                        <md-button class="md-accent" id="BotonISBN">ISBN</md-button>
                       </div>
                       <div>
-                        <md-button class="md-accent">SCAN</md-button>
+                        <md-button class="md-accent" id="BotonSCAN">SCAN</md-button>
                       </div>
                       <div>
-                        <md-button class="md-accent">MANUAL</md-button>
-                      </div>
+                        <md-button class="md-accent" id="BotonMANUAL">MANUAL</md-button>
+                      </div>  
     </div>
         </div>
 </template>
@@ -46,5 +44,5 @@ export default {
 
 <!--En esta sección importamos los estilos de esta página-->
 <style scoped>
-/*@import "home.min.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
+@import "darlibro.css"; /*Los archivos SCSS nos permiten escribir CSS automatizado*/
 </style>

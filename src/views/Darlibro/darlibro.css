@@ -1,4 +1,45 @@
-#HomeContainer {
-  background: #fff;
+#DarlibroContainer {
+  background: coral;
+  padding-top: 0 !important;
+}
+
+#DarlibroContainer #appHeader {
+  color: #fff;
+}
+
+#DarlibroContainer #BotonISBN {
+  width: 100%;
+  min-height: 48px;
+  margin: 4px 0 24px;
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  font-family: inherit;
+}
+
+#DarlibroContainer #BotonSCAN {
+  width: 100%;
+  min-height: 48px;
+  margin: 4px 0 24px;
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  font-family: inherit;
+}
+
+#DarlibroContainer #BotonMANUAL {
+  width: 100%;
+  min-height: 48px;
+  margin: 4px 0 24px;
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  font-family: inherit;
 }
 /*# sourceMappingURL=darlibro.css.map */
