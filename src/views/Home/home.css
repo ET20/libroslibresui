@@ -15,7 +15,7 @@
 }
 
 #HomeContent .layoutPortadaLibro {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem auto;
   padding: 0;
   list-style: none;
 }
@@ -24,7 +24,7 @@
   position: relative;
   overflow: hidden;
   color: white;
-  height: 32rem;
+  height: 34rem;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
