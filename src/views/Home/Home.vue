@@ -21,7 +21,7 @@
   
 
    <md-tabs md-sync-route>
-      <md-tab id="tab-home" md-label="Home" to="">
+      <md-tab id="tab-destacados" md-label="Destacados" to="">
         <ul class="md-layout md-gutter md-alignment-center">
   
        <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-60 md-small-size-40 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
@@ -57,12 +57,11 @@
     </ul>
    </md-tab>
      
-      <md-tab id="tab-pages" md-label="Pages" to="" >
+      <md-tab id="tab-nuevo" md-label="Mas nuevo" to="" >
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde nisi in doloremque, dolores sint quia iure. Facilis voluptates, excepturi pariatur illum, enim quam laudantium repudiandae sed perspiciatis, eligendi consequuntur.</p>
       </md-tab>
-      <md-tab id="tab-posts" md-label="Posts" to="" ></md-tab>
-      <md-tab id="tab-settings" md-label="Settings" to=""></md-tab>
-      <md-tab id="tab-disabled" md-label="Disabled" md-disabled to=""></md-tab>
+      <md-tab id="tab-antiguo" md-label="Mas antiguo" to="" ></md-tab>
+      <md-tab id="tab-alfab" md-label="Alfabetico" to=""></md-tab>
     </md-tabs>
   
   
