@@ -20,25 +20,25 @@
 <div id="HomeContent" class="pageContent">
   
 
-   <md-tabs class="barra" md-sync-route>
+   <md-tabs md-sync-route>
       <md-tab id="tab-home" md-label="Home" to="">
         <ul class="md-layout md-gutter md-alignment-center">
   
-    <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-60 md-small-size-30 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
+       <li v-for="libro in libros" :key="libro.id" class="layoutPortadaLibro md-layout-item md-xsmall-size-60 md-small-size-40 md-medium-size-20 md-large-size-15 md-xlarge-size-10 ">
       
-      <div class="portadaLibro">
+       <div class="portadaLibro">
         <div class="imagenLibro">
         <img src="../../assets/coverBook.jpg" alt="Skyscraper">
-      </div>
+       </div>
 
-      <div class="infoLibro">
+       <div class="infoLibro">
         <header>
          <h1>{{ libro.titulo}}</h1>
          <h2>{{ libro.autor }}</h2>
         </header>
    
    
-      <nav>
+       <nav>
         <md-button class="md-icon-button">
                  <i class="mdi mdi-heart md-headline"></i>
                </md-button>
@@ -53,12 +53,10 @@
                </nav>
       </div>
       </div>
-      
-      
-
     </li>
     </ul>
    </md-tab>
+     
       <md-tab id="tab-pages" md-label="Pages" to="" >
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde nisi in doloremque, dolores sint quia iure. Facilis voluptates, excepturi pariatur illum, enim quam laudantium repudiandae sed perspiciatis, eligendi consequuntur.</p>
       </md-tab>

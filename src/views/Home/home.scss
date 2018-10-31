@@ -5,11 +5,11 @@
 
 #HomeContent {
   padding: 2rem;
-  .barra{
-    margin: 0 auto;
-    display: block;
-    text-align: center;      
+  .md-tabs-navigation{
     position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
   }
   .layoutPortadaLibro{
     //overflow: hidden;

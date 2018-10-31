@@ -6,11 +6,11 @@
   padding: 2rem;
 }
 
-#HomeContent .barra {
-  margin: 0 auto;
+#HomeContent .md-tabs-navigation {
+  position: relative;
   display: block;
   text-align: center;
-  position: relative;
+  margin: 0 auto;
 }
 
 #HomeContent .layoutPortadaLibro {
