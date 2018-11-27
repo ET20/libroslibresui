@@ -1,10 +1,11 @@
 #DarlibroContainer {
-  background: coral;
-  padding-top: 0 !important;
+  background: white;
+  padding-top: 0;
 
   #appHeader {
      
-      color: #fff;
+      color: black;
+      
   }
   #BotonISBN {
     width: 100%;
@@ -14,6 +15,7 @@
     display: flex;
     position: relative;
     font-family: inherit;
+    color:rgb(26, 26, 241);
   }
   #BotonSCAN {
     width: 100%;
@@ -23,6 +25,7 @@
     display: flex;
     position: relative;
     font-family: inherit;
+    color:rgb(26, 26, 241);
   }
   #BotonMANUAL {
     width: 100%;
@@ -32,6 +35,7 @@
     display: flex;
     position: relative;
     font-family: inherit;
+    color:rgb(26, 26, 241);
   }
 }
 
