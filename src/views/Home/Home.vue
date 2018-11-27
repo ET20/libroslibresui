@@ -28,7 +28,8 @@
               v-for="libro in libros"
               :key="libro.id"
               class="layoutPortadaLibro md-layout-item md-xsmall-size-60 md-small-size-40 md-medium-size-20 md-large-size-15 md-xlarge-size-10">
-          
+              
+              <router-link class="" to="/libro">
              
             
               <div class="portadaLibro">
@@ -57,6 +58,7 @@
                   </nav>
                 </div>
               </div>
+              </router-link>
             </li>
           </ul>
         </md-tab>
